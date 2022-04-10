@@ -50,8 +50,8 @@ class bPlusTree
         bPlusTree(int d, int t)
         {
             root = nullptr;
-            this->dataNodeOrder = d;
-            this->indexNodeOrder = t;
+            dataNodeOrder = d;
+            indexNodeOrder = t;
         }
 
         void insert(int val)
